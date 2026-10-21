@@ -37,7 +37,7 @@ Twelve **pay-per-call agent micro-services** served over the x402 protocol (USDC
 }
 ```
 
-Free via MCP: `nemo_x402_catalogue` (full service menu with prices + settlement details) and `nemo_x402_x402_check` (the x402 Doctor, free over MCP).
+Free via MCP: `nemo_x402_catalogue` (full service menu with prices + settlement details) and `agentx_x402_doctor` (the x402 Doctor, free over MCP).
 
 ## Payments
 
