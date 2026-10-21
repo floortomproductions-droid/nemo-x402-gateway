@@ -1,6 +1,6 @@
 # NEMO x402 Micro-Services (AgentX Gateway)
 
-Nine **pay-per-call agent micro-services** served over the x402 protocol (USDC on Solana + Base), exposed as a remote **Streamable-HTTP MCP server** plus plain x402 HTTP endpoints.
+Twelve **pay-per-call agent micro-services** served over the x402 protocol (USDC on Base + Solana), exposed as a remote **Streamable-HTTP MCP server** plus plain x402 HTTP endpoints.
 
 - **MCP endpoint:** `https://agentx.sale/x402/mcp` (Streamable HTTP)
 - **Machine catalogue (free):** `https://agentx.sale/x402/catalogue`
@@ -18,8 +18,11 @@ Nine **pay-per-call agent micro-services** served over the x402 protocol (USDC o
 | `GET /x402/agent-card?host=` | $0.02 | Site Agent-Readiness Verdict Card — llms.txt, A2A card, MCP card, OpenAPI, TLS, headers, AI-crawler policy |
 | `GET /x402/protocol-lint?url=` | $0.02 | A2A / MCP protocol card lint with drop-in patched JSON fixes |
 | `GET /x402/crawler-policy?host=` | $0.02 | TLS + security headers + AI-crawler policy matrix (GPTBot, ClaudeBot, Google-Extended, PerplexityBot…) |
-| `POST /x402/classify` | $19.00 | AI topic classification of supplied text — free-form topics or caller-supplied label set, confidence + rationale |
-| `POST /x402/keywords` | $9.00 | AI keyword extraction — top salient keywords/phrases with scores, language detected |
+| `GET /x402/webmcp-check?host=` | $0.10 | WebMCP agent-compatibility check |
+| `POST /x402/webmcp-upgrade` | $4.00 | Generated webmcp.js tool file with publish instructions |
+| `POST /x402/classify` | $1.75 | AI topic classification of supplied text |
+| `POST /x402/keywords` | $0.90 | AI keyword extraction |
+| `GET or POST /x402/gtm-roast` | $0.02 | New Landing Page Roast — five persona critiques plus a shareable SVG card |
 
 ## Example MCP client config
 
@@ -38,7 +41,7 @@ Free via MCP: `nemo_x402_catalogue` (full service menu with prices + settlement 
 
 ## Payments
 
-x402 protocol v2. Every paid endpoint returns HTTP 402 with a `PAYMENT-REQUIRED` challenge; agents pay USDC (Solana mainnet or Base) and receive the result in the same call. No accounts, no API keys.
+x402 protocol v2. Every paid endpoint returns HTTP 402 with a `PAYMENT-REQUIRED` challenge; agents pay USDC (Base first, Solana also accepted) and receive the result in the same call. No accounts, no API keys.
 
 ## Provider
 

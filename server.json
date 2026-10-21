@@ -2,8 +2,9 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.floortomproductions-droid/agentx-x402-gateway",
   "title": "NEMO x402 Micro-Services",
-  "description": "Nine pay-per-call agent services via x402 (USDC on Solana + Base). Free catalogue + Doctor tools.",
-  "version": "0.4.0",
+  "description": "Twelve pay-per-call x402 services in USDC (Base + Solana).",
+  "version": "0.7.0",
+  "websiteUrl": "https://agentx.sale/x402/catalogue",
   "remotes": [
     {
       "type": "streamable-http",
