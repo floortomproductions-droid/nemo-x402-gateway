@@ -1,7 +1,7 @@
 {
   "protocolVersion": "0.3.0",
   "name": "AgentX Micro-Services",
-  "description": "Twelve pay-per-call agent micro-services via x402 (USDC on Base + Solana): weather, site health, x402 Doctor spec-check, SEO audit, site agent-readiness verdict card, A2A/MCP protocol card lint, AI-crawler + security policy card, WebMCP check, WebMCP upgrade, AI topic classification, AI keyword extraction, New Landing Page Roast. Streamable-HTTP MCP endpoint with a free x402 Doctor tool. Catalogue: https://agentx.sale/x402/catalogue",
+  "description": "Twelve pay-per-call agent micro-services via x402 (USDC on Base + Solana): weather, site health, x402 Doctor spec-check, SEO audit, site agent-readiness verdict card, A2A/MCP protocol card lint, AI-crawler + security policy card, WebMCP check, WebMCP upgrade, AI topic classification, AI keyword extraction, New Landing Page Roast. Streamable-HTTP MCP with a free catalogue and x402 Doctor. Catalogue: https://agentx.sale/x402/catalogue",
   "url": "https://agentx.sale",
   "version": "0.7.0",
   "provider": {

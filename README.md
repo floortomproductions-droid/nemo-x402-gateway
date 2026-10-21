@@ -1,6 +1,6 @@
 # NEMO x402 Micro-Services (AgentX Gateway)
 
-Twelve **pay-per-call agent micro-services** served over the x402 protocol (USDC on Base + Solana), exposed as a remote **Streamable-HTTP MCP server** plus plain x402 HTTP endpoints.
+Twelve **pay-per-call agent micro-services** over x402 (USDC on Base + Solana). MCP is the free catalogue and x402 Doctor. Paid work is the HTTP URLs.
 
 - **MCP endpoint:** `https://agentx.sale/x402/mcp` (Streamable HTTP)
 - **Machine catalogue (free):** `https://agentx.sale/x402/catalogue`
@@ -37,7 +37,7 @@ Twelve **pay-per-call agent micro-services** served over the x402 protocol (USDC
 }
 ```
 
-Free via MCP: `nemo_x402_catalogue` (full service menu with prices + settlement details) and `agentx_x402_doctor` (the x402 Doctor, free over MCP).
+Free via MCP: `agentx_x402_catalogue` (live menu with prices and routes) and `agentx_x402_doctor` (the x402 Doctor). Older clients can still call `nemo_x402_catalogue`.
 
 ## Payments
 
