@@ -3,7 +3,7 @@
   "name": "io.github.floortomproductions-droid/agentx-x402-gateway",
   "title": "NEMO x402 Micro-Services",
   "description": "Free catalogue and x402 Doctor over MCP. Paid HTTP services in USDC (Base + Solana).",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "websiteUrl": "https://agentx.sale/x402/catalogue",
   "remotes": [
     {
