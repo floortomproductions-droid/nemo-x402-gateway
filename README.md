@@ -22,7 +22,7 @@ Twelve **pay-per-call agent micro-services** over x402 (USDC on Base + Solana). 
 | `POST /x402/webmcp-upgrade` | $4.00 | Generated webmcp.js tool file with publish instructions |
 | `POST /x402/classify` | $1.75 | AI topic classification of supplied text |
 | `POST /x402/keywords` | $0.90 | AI keyword extraction |
-| `GET or POST /x402/gtm-roast` | $0.02 | New Landing Page Roast — five persona critiques plus a shareable SVG card |
+| `GET or POST /x402/gtm-roast` | $0.02 | New Landing Page Roast — any 1-2 of five cartoon legends roast the page's biggest flaw; score, verdict, shareable SVG card |
 
 ## Example MCP client config
 
