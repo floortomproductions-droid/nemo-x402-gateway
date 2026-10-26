@@ -18,6 +18,11 @@ All endpoints answer pay-per-call via x402. Catalogue (free, machine-readable): 
 - [Classify](https://agentx.sale/x402/classify): AI topic classification of supplied text (POST JSON {text}, $1.75)
 - [Keywords](https://agentx.sale/x402/keywords): AI keyword extraction (POST JSON {text}, $0.90)
 - [New Landing Page Roast](https://agentx.sale/x402/gtm-roast?url=https://floortom.com): any 1-2 of five cartoon legends roast the page's biggest flaw — score, verdict (CREMATED to BASED), shareable SVG card (GET or POST {url}, $0.01)
+- [Crypto Ticker](https://agentx.sale/x402/crypto-ticker?assets=btc,eth): live USD price + 24h move for up to 10 tokens ($0.01)
+- [Fear & Greed](https://agentx.sale/x402/fear-greed): crypto Fear & Greed Index with the last 7 days of history ($0.01)
+- [Gas Check](https://agentx.sale/x402/gas-check?chain=base): live gas price on Base, Ethereum, Polygon, Avalanche, Arbitrum or OP Mainnet, with USD cost of a transfer ($0.01)
+- [Polymarket Trending](https://agentx.sale/x402/polymarket-trending?limit=10): top open prediction markets by 24h volume with live YES prices ($0.01)
+- [Polymarket Odds](https://agentx.sale/x402/polymarket-odds?q=fed%20decision): live YES/NO odds for any named Polymarket market ($0.01)
 
 ## Agent marketplace store
 
