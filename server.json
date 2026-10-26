@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.floortomproductions-droid/agentx-x402-gateway",
   "title": "NEMO x402 Micro-Services",
-  "description": "Free catalogue and x402 Doctor over MCP. Paid HTTP services in USDC (Base + Solana).",
+  "description": "Free catalogue and x402 Doctor over MCP. Paid HTTP services via x402 (USDC Base + Solana), IETF MPP, and Stripe cards on $1+ routes.",
   "version": "0.7.8",
   "websiteUrl": "https://agentx.sale/x402/catalogue",
   "remotes": [
